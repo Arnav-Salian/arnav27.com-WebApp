@@ -1,0 +1,21 @@
+.mobile-wrapper{
+    height: 80px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+}
+
+.mobile-wrapper .credits a{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.mobile-wrapper .credits a:hover{
+    text-decoration: none;
+}
+
+.mobile-wrapper .credits a:visited{
+    color: rgb(255, 255, 255);
+}
