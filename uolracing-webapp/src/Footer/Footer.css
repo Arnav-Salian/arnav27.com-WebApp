@@ -10,12 +10,18 @@
     color: rgb(255, 255, 255);
     font-weight: 600;
     text-decoration: underline;
+    transition: all 0.1s ease;
 }
 
 .mobile-wrapper .credits a:hover{
     text-decoration: none;
 }
 
+.mobile-wrapper .credits a:active{
+    background-color: rgb(49, 88, 160);
+}
+
 .mobile-wrapper .credits a:visited{
     color: rgb(255, 255, 255);
+    
 }

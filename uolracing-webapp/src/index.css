@@ -2,14 +2,14 @@
     min-height: 800px;
 }
 
-/* ::selection{
-    background-color: rgb(35, 117, 184);
-    color: white;
-} */
+::selection{
+    background-color: #304d81;
+    color: #dce8ff;
+}
 
 body {
     position: relative;
-    background-image: url('assets\123134-transformed-min.jpeg');
+    background-image: url('assets\web-bg-img.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

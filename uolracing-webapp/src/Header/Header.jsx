@@ -6,7 +6,7 @@ function Header() {
         <nav>
 
             <div className="wrapper">
-                <div className="logo"><a href="#"><img src="src\assets\site-logo-white.png" alt="" draggable="false"/></a></div>
+                <div className="logo"><a href="https://arnav27.com" target='_blank'>arnav27.com</a></div>
 
                 <input type="radio" name="slide" id="menu-btn" />
                 <input type="radio" name="slide" id="cancel-btn" />
@@ -21,41 +21,38 @@ function Header() {
                         <div className="mega-box">
                             <div className="content">
                                 <div className="row">
-                                    <img src="src\assets\About-Menu-IMG.png" alt="" draggable="false"/>
+                                    <img src="src\assets\About-Menu-IMG.jpeg" alt="" draggable="false"/>
                                 </div>
                                 <div className="row">
-                                    <header>ABOUT THE TEAM</header>
+                                    <header>EDUCATION</header>
                                     <ul className="mega-links">
-                                    <li><a href="#">Values & Goals</a></li>
-                                    <li><a href="#">Past Results</a></li>
-                                    <li><a href="#">Sustainable Racing</a></li>
-                                    <li><a href="#">Team Stats</a></li>
+                                    <li><a href="#">University</a></li>
+                                    <li><a href="#">Sixth Form</a></li>
+                                    <li><a href="#">Secondary School</a></li>
+                                    <li><a href="#">Primary School</a></li>
                                     </ul>
                                 </div>
                                 <div className="row">
-                                    <header>OUR CARS</header>
+                                    <header>WORK EXPERIENCE</header>
                                     <ul className="mega-links">
-                                    <li><a href="#">LR04 Timeline</a></li>
-                                    <li><a href="#">LR03 2024</a></li>
-                                    <li><a href="#">LR02 2023</a></li>
-                                    <li><a href="#">LR01 2022</a></li>
+                                    <li><a href="#">arnav27.com</a></li>
+                                    <li><a href="#">Formula Student</a></li>
+                                    
+
                                     </ul>
                                 </div>
                                 <div className="row">
-                                    <header>FORMULA STUDENT</header>
+                                    <header>PROJECTS</header>
                                     <ul className="mega-links">
-                                    <li><a href="#">About Competition</a></li>
-                                    <li><a href="#">Points Allocation</a></li>
-                                    <li><a href="#">Documentation</a></li>
-                                    <li><a href="#">Latest News</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">UoL Racing</a></li>
+                                    
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </li>
 
-                    <li><a href="#">OUR TEAM</a></li>
-                    <li><a href="#">OUR SPONSORS</a></li>
 
                     <li>
                         <a href="#" className='desktop-item'>UPDATES</a>
@@ -67,7 +64,8 @@ function Header() {
                         </ul>
                     </li>
 
-                    <li>
+                    <li><a href="#">CONTACT</a></li>
+                    {/* <li>
                         <a href="#" className='desktop-item'>MORE</a>
                         <input type="checkbox" id='showDrop-more'/>
                         <label htmlFor="showDrop-more" className='mobile-item'>MORE</label>
@@ -76,7 +74,7 @@ function Header() {
                             <li><a href="#">Gallery</a></li>
                             <li><a href="#">Contact Us</a></li>
                         </ul>
-                    </li>
+                    </li> */}
                 </ul>
                 
             </div>
