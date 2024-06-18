@@ -15,6 +15,7 @@ nav{
     font-size: 27px;
     font-weight: 600;
     box-shadow: 0 7px 50px #001741;
+    margin-bottom: 65px;
     -webkit-user-select: none;  /* Safari */
     -moz-user-select: none;     /* Firefox */
     -ms-user-select: none;      /* Internet Explorer/Edge */
@@ -58,10 +59,10 @@ nav .wrapper{
 }
 
 .nav-links li a{
-    color: #3864b7;
+    color: #242526;
     text-decoration: none;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     padding: 9px 15px;
 
     transition: all 0.27s ease;
@@ -82,6 +83,7 @@ nav .wrapper{
     opacity: 0;
     visibility: hidden;
     transition: all 0.27s ease-in-out;
+    border-top: 5px solid rgb(46, 103, 209);
     
 
 }
@@ -108,10 +110,11 @@ nav .wrapper{
     top: 75px;
     width: 100%;
     left: 0;
-    padding: 0 30px;
+    padding: 0;
     opacity: 0;
     visibility: hidden;
     transition: all 0.27s ease-in-out;
+    border-top: 5px solid rgb(46, 103, 209);
     
 
 }
@@ -287,8 +290,8 @@ nav .wrapper{
     .nav-links .mobile-item{
         display: block;
         font-size: 20px;
-        color: #3864b7;
-        font-weight: 400;
+        color: #242526;
+        font-weight: 500;
         padding-left: 20px;
         cursor: pointer;
         transition: all 0.27s ease;
@@ -304,6 +307,7 @@ nav .wrapper{
         top: 65px;
         width: 100%;
         opacity: 1;
+        background-color: #b2cdff;
         visibility: visible;
         padding: 0 20px;
         max-height: 0px;  
@@ -312,7 +316,7 @@ nav .wrapper{
     }
     
     .mega-box .content{
-        background-color: #a5c4ff;
+
         flex-direction: column;
         padding: 20px 20px 0 20px;
 

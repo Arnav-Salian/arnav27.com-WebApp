@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route, Link, NavLink } from 'react-router-dom'
 import './Header.css'
 
 function Header() {
@@ -59,12 +60,12 @@ function Header() {
                         <input type="checkbox" id='showDrop-updates'/>
                         <label htmlFor="showDrop-updates" className='mobile-item'>UPDATES</label>
                         <ul className="drop-menu">
-                            <li><a href="#">Latest Updates</a></li>
-                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Live Feed</a></li>
                         </ul>
                     </li>
 
-                    <li><a href="#">CONTACT</a></li>
+                    <li><Link to="/contact">CONTACT</Link></li>
                     {/* <li>
                         <a href="#" className='desktop-item'>MORE</a>
                         <input type="checkbox" id='showDrop-more'/>
