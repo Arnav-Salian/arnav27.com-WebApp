@@ -1,4 +1,5 @@
 import './Contact.css';
+import linkedinIcon from '/src/assets/icons8-linkedin.svg';
 
 function Contact() {
     return (
@@ -13,7 +14,7 @@ function Contact() {
 
                     <button className="linkedin-btn">
                         <a href="https://www.linkedin.com/in/arnavs27/">
-                            <img src="src\assets\icons8-linkedin.svg" alt="" draggable="false" />
+                            <img src={linkedinIcon} alt="" draggable="false" />
                         </a>
                     </button>
 

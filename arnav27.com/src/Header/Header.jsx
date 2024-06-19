@@ -1,5 +1,8 @@
 import { BrowserRouter, Routes, Route, Link, NavLink } from 'react-router-dom'
 import './Header.css'
+import aboutMenuImg from '/src/assets/About-Menu-IMG.jpeg';
+import cancelButtonImg from '/src/assets/cancel_24dp_FILL0_wght400_GRAD0_opsz24.svg';
+import menuButtonImg from '/src/assets/menu_24dp_FILL0_wght400_GRAD0_opsz24.svg';
 
 function Header() {
 
@@ -13,31 +16,31 @@ function Header() {
                 <input type="radio" name="slide" id="cancel-btn" />
 
                 <ul className="nav-links">
-                    <label htmlFor="cancel-btn" className='btn cancel-btn'><img src="src\assets\cancel_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" draggable="false"/></label>
-                    <li><a href="#">HOME</a></li>
+                    <label htmlFor="cancel-btn" className='btn cancel-btn'><img src={cancelButtonImg} alt="" draggable="false"/></label>
+                    <li><Link to="">HOME</Link></li>
                     <li>
-                        <a href="#" className='desktop-item'>ABOUT</a>
+                        <Link to="" className='desktop-item'>ABOUT</Link>
                         <input type="checkbox" id="showMega" />
                         <label htmlFor="showMega" className='mobile-item'>ABOUT</label>
                         <div className="mega-box">
                             <div className="content">
                                 <div className="row">
-                                    <img src="src\assets\About-Menu-IMG.jpeg" alt="" draggable="false"/>
+                                    <img src={aboutMenuImg} alt="" draggable="false"/>
                                 </div>
                                 <div className="row">
                                     <header>EDUCATION</header>
                                     <ul className="mega-links">
-                                    <li><a href="#">University</a></li>
-                                    <li><a href="#">Sixth Form</a></li>
-                                    <li><a href="#">Secondary School</a></li>
-                                    <li><a href="#">Primary School</a></li>
+                                    <li><Link to="">University</Link></li>
+                                    <li><Link to="">Sixth Form</Link></li>
+                                    <li><Link to="">Secondary School</Link></li>
+                                    <li><Link to="">Primary School</Link></li>
                                     </ul>
                                 </div>
                                 <div className="row">
                                     <header>WORK EXPERIENCE</header>
                                     <ul className="mega-links">
-                                    <li><a href="#">arnav27.com</a></li>
-                                    <li><a href="#">Formula Student</a></li>
+                                    <li><Link to="">arnav27.com</Link></li>
+                                    <li><Link to="">Formula Student</Link></li>
                                     
 
                                     </ul>
@@ -45,8 +48,8 @@ function Header() {
                                 <div className="row">
                                     <header>PROJECTS</header>
                                     <ul className="mega-links">
-                                    <li><a href="#">Portfolio</a></li>
-                                    <li><a href="#">UoL Racing</a></li>
+                                    <li><Link to="">Portfolio</Link></li>
+                                    <li><Link to="">UoL Racing</Link></li>
                                     
                                     </ul>
                                 </div>
@@ -56,12 +59,12 @@ function Header() {
 
 
                     <li>
-                        <a href="#" className='desktop-item'>UPDATES</a>
+                        <Link to="" className='desktop-item'>UPDATES</Link>
                         <input type="checkbox" id='showDrop-updates'/>
                         <label htmlFor="showDrop-updates" className='mobile-item'>UPDATES</label>
                         <ul className="drop-menu">
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Live Feed</a></li>
+                            <li><Link to="">Blog</Link></li>
+                            <li><Link to="">Live Feed</Link></li>
                         </ul>
                     </li>
 
@@ -79,7 +82,7 @@ function Header() {
                 </ul>
                 
             </div>
-            <label htmlFor="menu-btn" className='btn menu-btn' ><img id="menu-img" src="src\assets\menu_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" draggable="false"/></label>
+            <label htmlFor="menu-btn" className='btn menu-btn' ><img id="menu-img" src={menuButtonImg} alt="" draggable="false"/></label>
             
         </nav>
         
