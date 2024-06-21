@@ -30,7 +30,7 @@ function Header() {
                                 <div className="row">
                                     <header>EDUCATION</header>
                                     <ul className="mega-links">
-                                    <li><Link to="">University</Link></li>
+                                    <li><Link to="/university">University</Link></li>
                                     <li><Link to="">Sixth Form</Link></li>
                                     <li><Link to="">Secondary School</Link></li>
                                     <li><Link to="">Primary School</Link></li>

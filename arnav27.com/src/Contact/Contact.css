@@ -2,7 +2,7 @@
 
 .contact-container{
     display: grid;
-    grid-template-columns: 60%;
+    grid-template-columns: minmax(0, 1000px);
     justify-content: center;
     
 
@@ -24,6 +24,7 @@
     border-radius: 5px;
     font-size: 45px;
     font-weight: 700;
+    line-height: 1.1;
     text-transform: uppercase;
     padding: 30px;
     margin-bottom: 20px;
@@ -62,7 +63,7 @@
 }
 
 #form{
-    width: 60%;
+    width: 85%;
 }
 
 label {
@@ -101,6 +102,7 @@ label {
   input[type=submit]:hover {
     background-color: rgb(113, 167, 255);
     border: 3px solid rgb(0, 30, 98);
+    color: rgb(0, 30, 98);
   }
 
   input[type=submit]:active{
@@ -110,3 +112,15 @@ label {
   }
 
   
+  @media screen and (max-width: 970px){
+
+    .contact-container{
+      grid-template-columns: 95%;
+     
+    }
+
+    #form{
+      width: 97%;
+    }
+
+  }

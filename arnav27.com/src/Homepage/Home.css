@@ -10,11 +10,11 @@
 
 }
 
+
 .home-wrapper{
     display: grid;
-    grid-template-columns: 97%;
+    grid-template-columns: minmax(0, 1140px);
     justify-content: center;
-    
 }
 
 .home-container{
@@ -35,9 +35,8 @@
 .profile-container{
     display: flex;
     flex-direction: column;   
-    justify-content: center;
-    max-width: 350px;
     margin-left: auto;
+    max-width: 350px;
     transition: all 0.35s ease-in-out;
     border-radius: 5px;
 }
@@ -92,6 +91,7 @@
     border-radius: 5px;
     font-size: 45px;
     font-weight: 700;
+    line-height: 1.1;
     text-transform: uppercase;
     padding: 30px;
     margin-bottom: 20px;
@@ -108,4 +108,18 @@
 
 #me-heading-text{
     color: rgb(113, 167, 255);
+}
+
+@media screen and (max-width: 880px){
+    .home-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile-container{
+        margin-left: 0;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    
 }
