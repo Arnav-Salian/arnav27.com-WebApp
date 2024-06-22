@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primary-wrapper{
+    display: grid;
+    grid-template-columns: minmax(0, 1500px);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.primary-logo-container{
+    display: grid;
+    grid-template-columns: 35% 35%;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.woodside-logo-container{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+
+
+}
+
+.woodside-logo-container a{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.woodside-logo-container img{
+    width: 100%;
+    max-height: 170px;
+    object-fit: contain;
+}
+
+.sfs-logo-container{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 10px;
+}
+
+.sfs-logo-container a{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sfs-logo-container img{
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+}
+
+.primary-logo-grid-items{
+    border-radius: 5px;
+    border: 5px solid rgba(252, 252, 252, 0);
+    cursor: pointer;
+    transition: all 0.27s ease-in-out;
+}
+
+.primary-logo-grid-items:hover{
+    border: 5px solid rgb(118, 121, 195);
+    transform: translateY(-5px);
+}
+
+.primarysch-description-container{
+    width: 70%;
+    height: auto;
+    background-color: rgba(171, 193, 255, 0.82);
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.primarysch-title{
+    border-radius: 5px;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: rgb(20, 27, 76);
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+#primaryedu-title-txt{
+    color: rgb(113, 167, 255);
+}
+
+@media screen and (max-width: 970px){
+    .primarysch-description-container{
+        width: 97%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .primary-logo-container{
+        grid-template-columns: none;
+        grid-template-rows: 45% 45%;
+
+    }
+    .woodside-logo-container{
+        margin-bottom: 30px;
+    }
+}

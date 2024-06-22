@@ -31,9 +31,9 @@ function Header() {
                                     <header>EDUCATION</header>
                                     <ul className="mega-links">
                                     <li><Link to="/university">University</Link></li>
-                                    <li><Link to="">Sixth Form</Link></li>
-                                    <li><Link to="">Secondary School</Link></li>
-                                    <li><Link to="">Primary School</Link></li>
+                                    <li><Link to="/sixthform">Sixth Form</Link></li>
+                                    <li><Link to="/secondary">Secondary School</Link></li>
+                                    <li><Link to="/primary">Primary School</Link></li>
                                     </ul>
                                 </div>
                                 <div className="row">
