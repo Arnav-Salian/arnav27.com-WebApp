@@ -18,13 +18,20 @@
     gap: 2%;
     justify-content: center;
     align-items: center;
+    -webkit-user-select: none;  /* Safari */
+    -moz-user-select: none;     /* Firefox */
+    -ms-user-select: none;      /* Internet Explorer/Edge */
+    user-select: none;          /* Standard syntax */
 }
 
 .woodside-logo-container{
     background-color: rgb(255, 255, 255);
     display: flex;
+    box-shadow: 0 0 30px rgba(0, 253, 143, 0.813);
+}
 
-
+.woodside-logo-container:hover{
+    border: 5px solid rgb(0, 112, 64);
 }
 
 .woodside-logo-container a{
@@ -34,14 +41,19 @@
 
 .woodside-logo-container img{
     width: 100%;
-    max-height: 170px;
+    max-height: 150px;
     object-fit: contain;
 }
 
 .sfs-logo-container{
     background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 30px rgb(176, 134, 255);
     display: flex;
-    padding: 10px;
+
+}
+
+.sfs-logo-container:hover{
+    border: 5px solid rgb(114, 119, 238);
 }
 
 .sfs-logo-container a{
@@ -53,6 +65,7 @@
     width: 100%;
     max-height: 150px;
     object-fit: contain;
+    padding-top: 10px;
 }
 
 .primary-logo-grid-items{
@@ -63,7 +76,7 @@
 }
 
 .primary-logo-grid-items:hover{
-    border: 5px solid rgb(118, 121, 195);
+    
     transform: translateY(-5px);
 }
 
@@ -100,6 +113,11 @@
 @media screen and (max-width: 970px){
     .primarysch-description-container{
         width: 97%;
+    }
+
+    .primary-logo-container{
+        grid-template-columns: 45% 45%;
+        gap: 2%;
     }
 }
 

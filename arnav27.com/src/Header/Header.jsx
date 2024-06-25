@@ -39,8 +39,8 @@ function Header() {
                                 <div className="row">
                                     <header>WORK EXPERIENCE</header>
                                     <ul className="mega-links">
-                                    <li><Link to="">arnav27.com</Link></li>
-                                    <li><Link to="">Formula Student</Link></li>
+                                    <li><Link to="/arnav27">arnav27.com</Link></li>
+                                    <li><Link to="/fsuk">Formula Student</Link></li>
                                     
 
                                     </ul>
@@ -48,8 +48,8 @@ function Header() {
                                 <div className="row">
                                     <header>PROJECTS</header>
                                     <ul className="mega-links">
-                                    <li><Link to="">Portfolio</Link></li>
-                                    <li><Link to="">UoL Racing</Link></li>
+                                    <li><Link to="/portfolio">Portfolio</Link></li>
+                                    <li><Link to="/uolracing">UoL Racing</Link></li>
                                     
                                     </ul>
                                 </div>
@@ -63,8 +63,8 @@ function Header() {
                         <input type="checkbox" id='showDrop-updates'/>
                         <label htmlFor="showDrop-updates" className='mobile-item'>UPDATES</label>
                         <ul className="drop-menu">
-                            <li><Link to="">Blog</Link></li>
-                            <li><Link to="">Live Feed</Link></li>
+                            <li><Link to="/blog">Blog</Link></li>
+                            <li><Link to="/feed">Live Feed</Link></li>
                         </ul>
                     </li>
 

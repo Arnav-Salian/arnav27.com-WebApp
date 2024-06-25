@@ -22,17 +22,21 @@
     margin-right: auto;
     background-color: rgb(1, 86, 140);
     padding: 15px;
-    box-shadow: 0 0 100px rgb(12, 95, 146);
+    box-shadow: 0 0 100px rgba(192, 150, 23, 0.758);
     border-radius: 5px;
-    border: 3px solid rgba(255, 255, 255, 0);
+    border: 5px solid rgba(255, 255, 255, 0);
     cursor: pointer;
     transition: all 0.35s ease-in-out;
+    -webkit-user-select: none;  /* Safari */
+    -moz-user-select: none;     /* Firefox */
+    -ms-user-select: none;      /* Internet Explorer/Edge */
+    user-select: none;          /* Standard syntax */
 
 }
 
 .ams-logo-container:hover{
     transform: translateY(-5px);
-    border: 3px solid rgb(192, 150, 24);
+    border: 5px solid rgb(192, 150, 24);
 }
 
 .ams-logo-container a{
