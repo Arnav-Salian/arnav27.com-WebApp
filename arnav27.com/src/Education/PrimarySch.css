@@ -27,11 +27,12 @@
 .woodside-logo-container{
     background-color: rgb(255, 255, 255);
     display: flex;
-    box-shadow: 0 0 30px rgba(0, 253, 143, 0.813);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.813);
 }
 
 .woodside-logo-container:hover{
     border: 5px solid rgb(0, 112, 64);
+    box-shadow: 0 0 30px rgba(0, 253, 143, 0.813);
 }
 
 .woodside-logo-container a{
@@ -47,13 +48,14 @@
 
 .sfs-logo-container{
     background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 30px rgb(176, 134, 255);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
     display: flex;
 
 }
 
 .sfs-logo-container:hover{
     border: 5px solid rgb(114, 119, 238);
+    box-shadow: 0 0 30px rgb(176, 134, 255);
 }
 
 .sfs-logo-container a{

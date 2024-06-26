@@ -19,7 +19,7 @@ function Header() {
                     <label htmlFor="cancel-btn" className='btn cancel-btn'><img src={cancelButtonImg} alt="" draggable="false"/></label>
                     <li><Link to="">HOME</Link></li>
                     <li>
-                        <Link to="" className='desktop-item'>ABOUT</Link>
+                        <Link to="#" className='desktop-item'>ABOUT</Link>
                         <input type="checkbox" id="showMega" />
                         <label htmlFor="showMega" className='mobile-item'>ABOUT</label>
                         <div className="mega-box">
@@ -59,11 +59,11 @@ function Header() {
 
 
                     <li>
-                        <Link to="" className='desktop-item'>UPDATES</Link>
+                        <Link to="#" className='desktop-item'>UPDATES</Link>
                         <input type="checkbox" id='showDrop-updates'/>
                         <label htmlFor="showDrop-updates" className='mobile-item'>UPDATES</label>
                         <ul className="drop-menu">
-                            <li><Link to="/blog">Blog</Link></li>
+                            <li><a href="https://arnav27.blogspot.com/">Blog</a></li>
                             <li><Link to="/feed">Live Feed</Link></li>
                         </ul>
                     </li>

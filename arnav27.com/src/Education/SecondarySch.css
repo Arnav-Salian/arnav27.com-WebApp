@@ -22,7 +22,7 @@
     margin-right: auto;
     background-color: rgb(1, 86, 140);
     padding: 15px;
-    box-shadow: 0 0 50px rgba(192, 150, 23, 0.758);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.758);
     border-radius: 5px;
     border: 5px solid rgba(255, 255, 255, 0);
     cursor: pointer;
@@ -37,6 +37,7 @@
 .secondarysch-ams-logo-container:hover{
     transform: translateY(-5px);
     border: 5px solid rgb(192, 150, 24);
+    box-shadow: 0 0 50px rgba(192, 150, 23, 0.758);
 }
 
 .secondarysch-ams-logo-container a{

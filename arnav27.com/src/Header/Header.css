@@ -5,6 +5,7 @@
     font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
+
 nav{
     background-color: #a5c4ff;
     position: fixed;
@@ -82,7 +83,7 @@ nav .wrapper{
     position: absolute;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.27s ease-in-out;
+    transition: all 0.10s ease-in-out;
     border-top: 5px solid rgb(46, 103, 209);
     
 
@@ -113,7 +114,7 @@ nav .wrapper{
     padding: 0;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.27s ease-in-out;
+    transition: all 0.10s ease-in-out;
     border-top: 5px solid rgb(46, 103, 209);
     
 

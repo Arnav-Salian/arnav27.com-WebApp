@@ -11,6 +11,7 @@ import FSUK from './Experience/FSUK.jsx';
 import Arnav27 from './Experience/arnav27.jsx';
 import UoLRacing from './Project-page/UolRacing.jsx';
 import Portfolio from './Project-page/Portfolio.jsx';
+import LiveFeed from './Update27/LiveFeed.jsx';
 import Contact from "./Contact/Contact.jsx";
 
 
@@ -34,6 +35,7 @@ function App(){
                 <Route path='/arnav27' element={<Arnav27/>} />
                 <Route path='/uolracing' element={<UoLRacing/>} />
                 <Route path='/portfolio' element={<Portfolio/>} />
+                <Route path='/feed' element={<LiveFeed/>} />
                 <Route path='/contact' element={<Contact/>} />
               </Routes>
             </main>

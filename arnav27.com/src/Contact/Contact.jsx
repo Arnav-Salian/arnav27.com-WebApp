@@ -19,7 +19,7 @@ function Contact() {
                     </button>
 
                     <div className="contact-forms">
-                        <form action="/submit" method="POST" id="form" netlify>
+                        <form action="/submit" method="POST" id="form" data-netlify="true">
                             <label htmlFor="fname">First Name:</label>
                             <input type="text" id="fname" name="firstname" placeholder="Your first name.." required />
 
