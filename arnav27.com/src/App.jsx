@@ -13,6 +13,7 @@ import UoLRacing from './Project-page/UolRacing.jsx';
 import Portfolio from './Project-page/Portfolio.jsx';
 import LiveFeed from './Update27/LiveFeed.jsx';
 import Contact from "./Contact/Contact.jsx";
+import Error404 from './404Error/404Error.jsx';
 
 
 
@@ -37,6 +38,7 @@ function App(){
                 <Route path='/portfolio' element={<Portfolio/>} />
                 <Route path='/feed' element={<LiveFeed/>} />
                 <Route path='/contact' element={<Contact/>} />
+                <Route path='*' element={<Error404/>} />
               </Routes>
             </main>
           
