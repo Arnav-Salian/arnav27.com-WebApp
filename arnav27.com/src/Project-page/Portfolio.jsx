@@ -2,7 +2,7 @@ import './Portfolio.css'
 import portfolioLogo from '/src/assets/arnav27logo.png'
 
 function Portfolio(){
-
+    document.title = "Portfolio - arnav27.com"
     return(
         <>
             <div className="safe-space"></div>

@@ -3,7 +3,7 @@ import woodsideLogo from '/src/assets/woodsideLogo.jpg'
 import sfsLogo from '/src/assets/sfsLogo.png'
 
 function PrimarySch(){
-
+    document.title = "Primary Education - arnav27.com"
     return(
         <>
             <div className="safe-space"></div>

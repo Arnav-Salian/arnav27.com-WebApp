@@ -13,9 +13,7 @@ import UoLRacing from './Project-page/UolRacing.jsx';
 import Portfolio from './Project-page/Portfolio.jsx';
 import LiveFeed from './Update27/LiveFeed.jsx';
 import Contact from "./Contact/Contact.jsx";
-import Error404 from './404Error/404Error.jsx';
-
-
+import Error404 from './Error404/404Error.jsx';
 
 
 function App(){

@@ -2,7 +2,7 @@ import './University.css'
 import uolLogo from '/src/assets/uol-logo.png'
 
 function University(){
-
+    document.title = "University - arnav27.com"
     return(
         <>
             <div className="safe-space"></div>

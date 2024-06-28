@@ -2,7 +2,7 @@ import './UoLRacing.css'
 import uolracingLogo from '/src/assets/uolracinglogowhite.png'
 
 function UoLRacing(){
-
+    document.title = "UoL Racing - arnav27.com"
     return(
         <>
             <div className="safe-space"></div>

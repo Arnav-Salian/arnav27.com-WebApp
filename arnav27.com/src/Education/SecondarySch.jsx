@@ -2,7 +2,7 @@ import './SecondarySch.css'
 import amsLogo from '/src/assets/amsLogo.png'
 
 function SecondarySch(){
-
+    document.title = "Secondary Education - arnav27.com"
     return(
         <>
             <div className="safe-space"></div>

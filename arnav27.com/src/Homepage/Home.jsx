@@ -2,6 +2,7 @@ import './Home.css';
 import profileImg from '/src/assets/signal-2023-08-17-095053_002.jpeg';
 
 function Home() {
+    document.title = "Home - arnav27.com"
     return (
         <>
             <div className="safe-space"></div>

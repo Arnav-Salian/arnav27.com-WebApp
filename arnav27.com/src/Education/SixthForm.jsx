@@ -2,7 +2,7 @@ import './SixthForm.css'
 import amsLogo from '/src/assets/amsLogo.png'
 
 function SixthForm(){
-
+    document.title = "Sixth Form - arnav27.com"
     return(
         <>
             <div className="safe-space"></div>

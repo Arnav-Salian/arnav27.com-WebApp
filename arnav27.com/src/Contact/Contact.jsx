@@ -2,6 +2,7 @@ import './Contact.css';
 import linkedinIcon from '/src/assets/icons8-linkedin.svg';
 
 function Contact() {
+    document.title = "Contact - arnav27.com"
     return (
         <>
             <div className="safe-space"></div>

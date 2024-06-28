@@ -2,7 +2,7 @@ import './404Error.css'
 import Error404Img from '/src/assets/Error404Img.png'
 
 function Error404(){
-
+    document.title = "Page Not Found - arnav27.com"
     return(
         <>
             <div className="safe-space"></div>

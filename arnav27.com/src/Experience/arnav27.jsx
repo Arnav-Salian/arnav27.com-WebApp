@@ -2,7 +2,7 @@ import './arnav27.css'
 import arnav27Logo from '/src/assets/arnav27logo.png'
 
 function Arnav27(){
-
+    document.title = "arnav27.com"
     return(
         <>
             <div className="safe-space"></div>
