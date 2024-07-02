@@ -30,6 +30,19 @@ function University(){
                     </div>
                 </div>
             </div>
+            <div className="year1-wrapper">
+                <div className="year1-container">
+                    <div className="year1-title">
+                        <p className='year1-heading'>First <span id='year1-heading-text'>Year</span></p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum labore nesciunt iure officia, aliquid libero commodi consectetur velit soluta totam cum sed deserunt nemo cupiditate voluptatibus, distinctio maxime assumenda esse! <br />
+                    <br />
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum labore nesciunt iure officia, aliquid libero commodi consectetur velit soluta totam cum sed deserunt nemo cupiditate voluptatibus, distinctio maxime assumenda esse!
+                    </p>
+                </div>
+
+
+            </div>
             <div className="safe-space"></div>
         </>
 

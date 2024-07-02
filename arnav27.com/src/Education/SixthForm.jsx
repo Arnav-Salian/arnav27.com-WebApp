@@ -32,6 +32,15 @@ function SixthForm(){
                     </div>
                 </div>
             </div>
+            <div className="sixthform-achievements-wrapper">
+                <div className="sixthform-achievements-container">
+                    <div className="sixthform-achievements-title">
+                        <p className='sixthform-achievements-heading'>Achievements</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio nemo asperiores, iusto ullam porro quo alias iure, soluta atque eligendi ipsam illo, repellat vitae molestiae nam pariatur unde ex natus.</p>
+                </div>
+
+            </div>
 
             <div className="safe-space"></div>
         </>

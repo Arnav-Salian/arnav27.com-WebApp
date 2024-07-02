@@ -33,6 +33,16 @@ function SecondarySch(){
                 </div>
             </div>
 
+            <div className="secondary-achievements-wrapper">
+                <div className="secondary-achievements-container">
+                    <div className="secondary-achievements-title">
+                        <p className='secondary-achievements-heading'>Achievements</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio nemo asperiores, iusto ullam porro quo alias iure, soluta atque eligendi ipsam illo, repellat vitae molestiae nam pariatur unde ex natus.</p>
+                </div>
+
+            </div>
+
             <div className="safe-space"></div>
         </>
     );
