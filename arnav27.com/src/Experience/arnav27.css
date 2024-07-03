@@ -38,6 +38,8 @@
 }
 
 .arnav27Logo-container img{
+    display: flex;
+    width: 100%;
     object-fit: contain;
     border-radius: 5px;
     max-height: 150px;
@@ -46,6 +48,8 @@
 
 
 .arnav27-description-container{
+    color: rgb(46, 45, 121);
+    font-weight: 500;
     width: 70%;
     height: auto;
     background-color: rgba(171, 193, 255, 0.82);
@@ -54,7 +58,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-
+    transition: all 0.35s ease-in-out;
 }
 
 
@@ -71,6 +75,7 @@
     background-color: rgb(20, 27, 76);
     text-align: center;
     color: white;
+    overflow: hidden;
 }
 
 #tm-heading-text{
@@ -84,6 +89,10 @@
 
     .arnav27-description-container{
         width: 97%;
+    }
+
+    .arnav27-heading{
+        font-size: 30px;
     }
 
 }

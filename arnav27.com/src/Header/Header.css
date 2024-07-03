@@ -46,7 +46,7 @@ nav .wrapper{
 }
 
 .wrapper .logo a:hover{
-    text-decoration: underline;
+    text-decoration: none;
     color: #2a70e0;
 }
 
@@ -56,7 +56,7 @@ nav .wrapper{
 
 .nav-links li{
     list-style: none;
-    
+    transition: all 0.35s ease-in-out;
 }
 
 .nav-links li a{
@@ -65,8 +65,7 @@ nav .wrapper{
     font-size: 18px;
     font-weight: 500;
     padding: 9px 15px;
-
-    transition: all 0.27s ease;
+    transition: all 0.15s ease;
 
 }
 

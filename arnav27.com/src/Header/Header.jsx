@@ -66,7 +66,7 @@ function Header() {
                         <input type="checkbox" id='showDrop-updates'/>
                         <label htmlFor="showDrop-updates" className='mobile-item'>UPDATES</label>
                         <ul className="drop-menu">
-                            <li><a className='menu-link' href="https://arnav27.blogspot.com/" onClick={handleClick}>Blog</a></li>
+                            <li><Link to="/blog" onClick={handleClick}>Blog</Link></li>
                             <li><Link to="/feed" onClick={handleClick}>Live Feed</Link></li>
                         </ul>
                     </li>

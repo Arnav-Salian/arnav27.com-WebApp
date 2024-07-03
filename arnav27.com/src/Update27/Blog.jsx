@@ -1,14 +1,14 @@
-import './LiveFeed.css'
+import './Blog.css'
 
-function LiveFeed(){
+function Blog(){
 
     return(
         <>
             <div className="safe-space"></div>
-            <p>Live Feed</p>
+            <p>Blog</p>
             <div className="safe-space"></div>
         </>
     );
 }
 
-export default LiveFeed
+export default Blog

@@ -22,12 +22,14 @@
     -moz-user-select: none;     /* Firefox */
     -ms-user-select: none;      /* Internet Explorer/Edge */
     user-select: none;          /* Standard syntax */
+    transition: all 0.35s ease-in-out;
 }
 
 .woodside-logo-container{
     background-color: rgb(255, 255, 255);
     display: flex;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.813);
+    
 }
 
 .woodside-logo-container:hover{
@@ -80,11 +82,12 @@
 }
 
 .primary-logo-grid-items:hover{
-    
     transform: translateY(-5px);
 }
 
 .primarysch-description-container{
+    color: rgb(46, 45, 121);
+    font-weight: 500;
     width: 70%;
     height: auto;
     background-color: rgba(171, 193, 255, 0.82);
@@ -93,6 +96,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
+    transition: all 0.35s ease-in-out;
 }
 
 .primarysch-title{
@@ -122,6 +126,10 @@
     .primary-logo-container{
         grid-template-columns: 45% 45%;
         gap: 2%;
+    }
+
+    .primarysch-title{
+        font-size: 30px;
     }
 }
 

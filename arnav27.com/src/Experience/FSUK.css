@@ -38,14 +38,19 @@
 }
 
 .fsukLogo-container img{
+    display: flex;
     object-fit: contain;
     border-radius: 5px;
     max-height: 150px;
+    margin-left: 50px;
     padding: 10px;
+    width: 75%;
 }
 
 
 .fsuk-description-container{
+    color: rgb(46, 45, 121);
+    font-weight: 500;
     width: 70%;
     height: auto;
     background-color: rgba(171, 193, 255, 0.82);
@@ -54,7 +59,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-
+    transition: all 0.35s ease-in-out;
 }
 
 
@@ -71,6 +76,7 @@
     background-color: rgb(20, 27, 76);
     text-align: center;
     color: white;
+    overflow: hidden;
 }
 
 #stu-heading-text{
@@ -86,4 +92,7 @@
         width: 97%;
     }
 
+    .fsuk-heading{
+        font-size: 30px;
+    }
 }

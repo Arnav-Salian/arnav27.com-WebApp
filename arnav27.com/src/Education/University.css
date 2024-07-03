@@ -50,6 +50,8 @@
 
 
 .uni-description-container{
+    color: rgb(46, 45, 121);
+    font-weight: 500;
     width: 70%;
     height: auto;
     background-color: rgba(171, 193, 255, 0.82);
@@ -76,6 +78,7 @@
     background-color: rgb(20, 27, 76);
     text-align: center;
     color: white;
+    overflow: hidden;
 }
 
 #edu-heading-text{
@@ -90,6 +93,8 @@
 }
 
 .year1-container{
+    color: rgb(45, 55, 121);
+    font-weight: 500;
     margin-top: 50px;
     border-radius: 5px;
     width: 70%;
@@ -113,6 +118,7 @@
     background-color: rgb(20, 27, 76);
     text-align: center;
     color: white;
+    overflow: hidden;
 }
 
 #year1-heading-text{
@@ -134,4 +140,11 @@
         width: 97%;
     }
 
+    .uni-heading{
+        font-size: 30px;
+    }
+
+    .year1-heading{
+        font-size: 30px;
+    }
 }
