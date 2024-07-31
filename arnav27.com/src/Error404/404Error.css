@@ -9,10 +9,12 @@
     grid-template-columns: minmax(0,1500px);
     justify-content: center;
     align-items: center;
+    background-color: rgb(44, 44, 118);
     -webkit-user-select: none;  /* Safari */
     -moz-user-select: none;     /* Firefox */
     -ms-user-select: none;      /* Internet Explorer/Edge */
-    user-select: none;          /* Standard syntax */
+    user-select: none;  
+       /* Standard syntax */
     
 }
 
@@ -23,9 +25,8 @@
     margin-right: auto;
     justify-content: center;
     align-items: center;
-    background-color: rgb(44, 44, 118);
     padding: 30px;
-    border-radius: 75px;
+
 }
 
 .error-img{
@@ -36,7 +37,15 @@
 
 .error-img img{
     object-fit: contain;
-    max-width: 90%;
+    max-width: 80%;
     
     
+}
+
+.not-found{
+    color: rgb(152, 141, 255);
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 30px;
 }

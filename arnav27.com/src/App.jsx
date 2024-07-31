@@ -8,9 +8,9 @@ import SixthForm from './Education/SixthForm.jsx';
 import SecondarySch from './Education/SecondarySch.jsx';
 import PrimarySch from './Education/PrimarySch.jsx';
 import FSUK from './Experience/FSUK.jsx';
-import Arnav27 from './Experience/arnav27.jsx';
+import Arnav27 from './Project-page/arnav27.jsx';
 import UoLRacing from './Project-page/UolRacing.jsx';
-import Portfolio from './Project-page/Portfolio.jsx';
+import Waitrose from './Experience/Waitrose.jsx';
 import Blog from './Update27/Blog.jsx';
 import LiveFeed from './Update27/LiveFeed.jsx';
 import Contact from "./Contact/Contact.jsx";
@@ -34,7 +34,7 @@ function App(){
                 <Route path='/fsuk' element={<FSUK/>} />
                 <Route path='/arnav27' element={<Arnav27/>} />
                 <Route path='/uolracing' element={<UoLRacing/>} />
-                <Route path='/portfolio' element={<Portfolio/>} />
+                <Route path='/waitrose' element={<Waitrose/>} />
                 <Route path='/blog' element={<Blog/>} />
                 <Route path='/feed' element={<LiveFeed/>} />
                 <Route path='/contact' element={<Contact/>} />

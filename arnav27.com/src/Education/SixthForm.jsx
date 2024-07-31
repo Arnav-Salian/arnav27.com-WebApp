@@ -22,13 +22,11 @@ function SixthForm(){
                     </div>
 
                     <div className="sixthform-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea reprehenderit voluptas nisi voluptatibus quod inventore aperiam quisquam unde eum provident nulla quis eaque laudantium, aliquid fugiat. Totam minus iure ducimus. <br />
+                    In September 2021, I enrolled at Amersham Sixth Form following my successful completion of GCSEs at the same school. I chose Mathematics as it was essential for my future Computer Science studies at university, and Biology because of my genuine interest in the subject. Initially considering Physics and Psychology, I ultimately decided on Chemistry. Throughout Year 12, I maintained strong academic performance, particularly excelling in internal assessments. <br />
                     <br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut obcaecati maiores aliquid doloremque, dolore provident nihil? Magnam asperiores quos, laboriosam numquam voluptate, assumenda tempora cumque officiis rem neque ratione. <br />
-                    <br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut obcaecati maiores aliquid doloremque, dolore provident nihil? Magnam asperiores quos, laboriosam numquam voluptate, assumenda tempora cumque officiis rem neque ratione. <br />
-                    <br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut obcaecati maiores aliquid doloremque, dolore provident nihil? Magnam asperiores quos, laboriosam numquam voluptate, assumenda tempora cumque officiis rem neque ratione.
+                    In Year 13, I applied to UCAS and received offers from all five universities, including my first-choice University of Leicester for Computer Science. Recognizing my dedication and hard work, I was honored with both the Student of the Term and Student of the Year awards. In June 2023, I completed my A Levels, including the practical endorsements, solidifying my decision to pursue further education at the University of Leicester.
+
+
                     </div>
                 </div>
             </div>
@@ -37,7 +35,13 @@ function SixthForm(){
                     <div className="sixthform-achievements-title">
                         <p className='sixthform-achievements-heading'>Achievements</p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio nemo asperiores, iusto ullam porro quo alias iure, soluta atque eligendi ipsam illo, repellat vitae molestiae nam pariatur unde ex natus.</p>
+                    <p>
+                        <ul className='achievement-list'>
+                            <li>Student of the Year (2023)</li>
+                            <li>Student of the Term (2023)</li>
+                        </ul>
+                        
+                    </p>
                 </div>
 
             </div>

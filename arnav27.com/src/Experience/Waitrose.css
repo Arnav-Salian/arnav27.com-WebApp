@@ -1,23 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.portfolio-wrapper{
+.waitrose-wrapper {
     display: grid;
     grid-template-columns: minmax(0, 1500px);
     align-items: center;
     justify-content: center;
 }
 
-.portfolioLogo-container{
+.waitroseLogo-container {
     width: 70%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(165, 196, 255);
+    background-color: rgb(195, 214, 0);
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 0 50px rgb(0, 0, 0);
@@ -31,13 +31,13 @@
     user-select: none;          /* Standard syntax */
 }
 
-.portfolioLogo-container:hover{
+.waitroseLogo-container:hover {
     transform: translateY(-5px);
-    border: 5px solid rgb(113, 167, 255);
-    box-shadow: 0 0 50px rgb(51, 129, 255);
+    border: 5px solid rgb(41, 73, 0);
+    box-shadow: 0 0 50px rgba(155, 169, 0, 0.443);
 }
 
-.portfolioLogo-container img{
+.waitroseLogo-container img {
     display: flex;
     width: 100%;
     object-fit: contain;
@@ -46,8 +46,7 @@
     padding: 20px;
 }
 
-
-.portfolio-description-container{
+.waitrose-description-container {
     color: rgb(46, 45, 121);
     font-weight: 500;
     width: 70%;
@@ -61,9 +60,7 @@
     transition: all 0.35s ease-in-out;
 }
 
-
-
-.portfolio-heading{
+.waitrose-heading {
     border-radius: 5px;
     font-size: 45px;
     font-weight: 700;
@@ -78,20 +75,20 @@
     overflow: hidden;
 }
 
-#website-heading-text{
+#website-heading-text {
     color: rgb(113, 167, 255);
 }
 
-@media screen and (max-width: 970px){
-    .portfolioLogo-container{
+@media screen and (max-width: 970px) {
+    .waitroseLogo-container {
         width: 97%;
     }
 
-    .portfolio-description-container{
+    .waitrose-description-container {
         width: 97%;
     }
 
-    .portfolio-heading{
+    .waitrose-heading {
         font-size: 30px;
     }
 }

@@ -46,21 +46,22 @@ function Header() {
                                 <div className="row">
                                     <header>WORK EXPERIENCE</header>
                                     <ul className="mega-links">
-                                        <li><Link to="/arnav27" onClick={handleClick}>arnav27.com</Link></li>
+                                        
                                         <li><Link to="/fsuk" onClick={handleClick}>Formula Student</Link></li>
+                                        <li><Link to="/waitrose" onClick={handleClick}>Waitrose & Partners</Link></li>
                                     </ul>
                                 </div>
                                 <div className="row">
                                     <header>PROJECTS</header>
                                     <ul className="mega-links">
-                                        <li><Link to="/portfolio" onClick={handleClick}>Portfolio</Link></li>
+                                        <li><Link to="/arnav27" onClick={handleClick}>arnav27.com</Link></li>
                                         <li><Link to="/uolracing" onClick={handleClick}>UoL Racing</Link></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </li>
-
+{/* 
                     <li>
                         <Link to="#" className='desktop-item'>UPDATES</Link>
                         <input type="checkbox" id='showDrop-updates'/>
@@ -69,7 +70,7 @@ function Header() {
                             <li><Link to="/blog" onClick={handleClick}>Blog</Link></li>
                             <li><Link to="/feed" onClick={handleClick}>Live Feed</Link></li>
                         </ul>
-                    </li>
+                    </li> */}
 
                     <li><Link to="/contact" onClick={handleClick}>CONTACT</Link></li>
                 </ul>

@@ -31,13 +31,9 @@ function PrimarySch(){
                     </div>
 
                     <div className="primarysch-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea reprehenderit voluptas nisi voluptatibus quod inventore aperiam quisquam unde eum provident nulla quis eaque laudantium, aliquid fugiat. Totam minus iure ducimus. <br />
+                    In September 2014, I embarked on the final stages of my primary education at Woodside Junior School, where I spent two pivotal years in Years 5 and 6. During this period, I successfully completed the mandatory SATs exams, marking a significant academic milestone. <br />
                     <br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut obcaecati maiores aliquid doloremque, dolore provident nihil? Magnam asperiores quos, laboriosam numquam voluptate, assumenda tempora cumque officiis rem neque ratione. <br />
-                    <br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut obcaecati maiores aliquid doloremque, dolore provident nihil? Magnam asperiores quos, laboriosam numquam voluptate, assumenda tempora cumque officiis rem neque ratione. <br />
-                    <br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut obcaecati maiores aliquid doloremque, dolore provident nihil? Magnam asperiores quos, laboriosam numquam voluptate, assumenda tempora cumque officiis rem neque ratione.
+                    Beyond academics, I actively engaged in extracurricular activities. One standout achievement was receiving the Man of the Tournament award in dodgeball at a prestigious multi-school event hosted by Amersham School. This experience not only highlighted my athletic prowess but also fostered my development in teamwork and leadership at a young age.
                     </div>
                 </div>
             </div>

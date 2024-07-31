@@ -11,6 +11,9 @@ function Error404(){
                     <div className="error-img">
                         <img src={Error404Img} alt="" draggable="false"/>
                     </div>
+                    <div className="not-found">
+                        <p>Page Not Found</p>
+                    </div>
                 </div>
             </div>
             <div className="safe-space"></div>

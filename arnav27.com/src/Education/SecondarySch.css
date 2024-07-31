@@ -124,6 +124,10 @@
     overflow: hidden;
 }
 
+.achievement-list-secondary{
+    padding-left: 20px;
+}
+
 @media screen and (max-width: 970px){
     .secondarysch-ams-logo-container{
         width: 97%;
