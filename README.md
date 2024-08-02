@@ -13,13 +13,13 @@ You can view the live demo of the website [arnav27.netlify.app](https://arnav27.
 - **HTML**: For structuring the web content.
 - **CSS**: For styling the website and making it visually appealing.
 - **JavaScript**: For implementing interactive elements and functionality.
-- **React.js**: As the main framework for building the single-page application.
+- **React.js**: As the main framework for building the single-page application. 
 - **Netlify**: For deploying the project and making it accessible online.
 
 ## Features
 
 - **Responsive Design**: The website is fully responsive, ensuring a seamless user experience across different devices and screen sizes.
-- **Single-Page Application**: Utilizes React.js to create a smooth and dynamic user experience without page reloads.
+- **Single-Page Application**: Utilizes React.js Router to create a smooth and dynamic user experience without page reloads.
 - **Modern UI**: Clean and modern user interface design inspired by the original arnav27.com website.
 
 
