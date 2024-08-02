@@ -2,6 +2,7 @@ import './SixthForm.css'
 import amsLogo from '/src/assets/amsLogo.png'
 
 function SixthForm(){
+    window.scrollTo(0, 0)
     document.title = "Sixth Form - arnav27.com"
     return(
         <>

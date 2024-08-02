@@ -2,6 +2,7 @@ import './Waitrose.css'
 import waitroseLogo from '/src/assets/waitrose.jpeg'
 
 function Waitrose() {
+    window.scrollTo(0, 0)
     document.title = "Waitrose & Partners - arnav27.com";
     return (
         <>

@@ -2,6 +2,7 @@ import './University.css'
 import uolLogo from '/src/assets/uol-logo.png'
 
 function University(){
+    window.scrollTo(0, 0)
     document.title = "University - arnav27.com"
     return(
         <>

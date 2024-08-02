@@ -2,6 +2,7 @@ import './SecondarySch.css'
 import amsLogo from '/src/assets/amsLogo.png'
 
 function SecondarySch(){
+    window.scrollTo(0, 0)
     document.title = "Secondary Education - arnav27.com"
     return(
         <>

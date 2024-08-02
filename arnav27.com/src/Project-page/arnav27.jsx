@@ -2,6 +2,7 @@ import './arnav27.css'
 import arnav27Logo from '/src/assets/arnav27logo.png'
 
 function Arnav27(){
+    window.scrollTo(0, 0)
     document.title = "arnav27.com"
     return(
         <>

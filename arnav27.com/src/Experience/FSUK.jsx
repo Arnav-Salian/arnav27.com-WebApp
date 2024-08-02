@@ -2,6 +2,7 @@ import './FSUK.css'
 import fsukLogo from '/src/assets/favpng_logo-formula-student-formula-sae-brand-450x190.png'
 
 function FSUK(){
+    window.scrollTo(0, 0)
     document.title = "Formula Student - arnav27.com"
     return(
         <>

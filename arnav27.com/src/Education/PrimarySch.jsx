@@ -3,6 +3,7 @@ import woodsideLogo from '/src/assets/woodsideLogo.jpg'
 import sfsLogo from '/src/assets/sfsLogo.png'
 
 function PrimarySch(){
+    window.scrollTo(0, 0)
     document.title = "Primary Education - arnav27.com"
     return(
         <>

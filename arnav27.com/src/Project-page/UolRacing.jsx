@@ -2,6 +2,7 @@ import './UoLRacing.css'
 import uolracingLogo from '/src/assets/uolracinglogowhite.png'
 
 function UoLRacing(){
+    window.scrollTo(0, 0)
     document.title = "UoL Racing - arnav27.com"
     return(
         <>
