@@ -6,7 +6,7 @@ I built a responsive clone of my personal website, [arnav27.com](https://arnav27
 
 ## Live Demo
 
-You can view the live demo of the website [arnav27.netlify.app](https://arnav27.vercel.app/).
+You can view the live demo of the website [arnav27.vercel.app](https://arnav27.vercel.app/).
 
 ## Technologies Used
 
