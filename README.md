@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-I built a responsive clone of my personal website, [arnav27.com](https://arnav27.netlify.app/), using React.js as a single-page application. This project marks my first experience with the React.js library.
+I built a responsive clone of my personal website, [arnav27.com](https://arnav27.com/), using React.js as a single-page application. This project marks my first experience with the React.js library.
 
 ## Live Demo
 
-You can view the live demo of the website [arnav27.netlify.app](https://arnav27.netlify.app/).
+You can view the live demo of the website [arnav27.netlify.app](https://arnav27.vercel.app/).
 
 ## Technologies Used
 
