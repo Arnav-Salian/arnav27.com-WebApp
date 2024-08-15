@@ -32,9 +32,15 @@ function PrimarySch(){
                     </div>
 
                     <div className="primarysch-description">
+                    <h2>Woodside Junior School</h2>
                     In September 2014, I embarked on the final stages of my primary education at Woodside Junior School, where I spent two pivotal years in Years 5 and 6. During this period, I successfully completed the mandatory SATs exams, marking a significant academic milestone. <br />
                     <br />
-                    Beyond academics, I actively engaged in extracurricular activities. One standout achievement was receiving the Man of the Tournament award in dodgeball at a prestigious multi-school event hosted by Amersham School. This experience not only highlighted my athletic prowess but also fostered my development in teamwork and leadership at a young age.
+                    Beyond academics, I actively engaged in extracurricular activities. One standout achievement was receiving the Man of the Tournament award in dodgeball at a prestigious multi-school event hosted by Amersham School. This experience not only highlighted my athletic prowess but also fostered my development in teamwork and leadership at a young age. <br />
+                    <br />
+                    <h2>St. Francis ICSE School</h2>
+                    In June 2008, I enrolled in my first-ever school in India, where I began my educational journey. I studied there up to halfway through 4th standard, which is equivalent to Year 5 in the British education system. It was during this foundational period that I developed a passion for learning and laid the groundwork for my academic path. <br />
+                    <br />
+                    In pursuit of continued growth and opportunities, I subsequently transitioned to Woodside Junior School. This move marked a significant transition, bringing new experiences and challenges that further enriched my educational and personal development journey.
                     </div>
                 </div>
             </div>
